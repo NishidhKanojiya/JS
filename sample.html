@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS Sort Visualizer</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+    }
+
+    #container {
+      display: flex;
+      align-items: flex-end;
+      height: 200px;
+      gap: 5px;
+      margin-bottom: 20px;
+    }
+
+    .bar {
+      width: 40px;
+      background: steelblue;
+      color: white;
+      text-align: center;
+    }
+
+    .bar.active {
+      background: orange;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h2>JavaScript Sort Visualizer</h2>
+  <div id="container"></div>
+  <button onclick="startSort()">Sort Numbers</button>
+
+  <script src="sample.js"></script>
+</body>
+</html>
