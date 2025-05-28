@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Demo</title>
+    
+
+    <style>
+        body{
+            background-color: #f2f2f2;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit. Consectetur, rerum.
+    </h1>
+
+    <section id="1">
+        <h2>Accessing dom elements</h2>
+        <p id="mypara">this is a paragraph . click the button to change me</p>
+        <button id="changeTextbutton"> change text</button>
+    </section>
+
+    <section id="2">
+        <h2>Traversing the DOM</h2>
+        <ul id ="citiesList">
+            <li>NewYOrk</li>  
+            <li>TOkyo</li>
+            <li>Paris</li>
+            <li>London</li>
+            <li>Mumbai</li>
+        </ul>
+        <button id="highLightfirstcity">Highlight first city</button>
+    </section>
+
+
+    <section id="3">
+        <h2>Manipulating DOM element</h2>
+        <div id ="CoffeeOrder">Order:
+            <span id="CoffeeType">Latte</span>
+        </div>
+        <button id="changeOrder">chnage order to espresso</button>
+    </section>
+
+
+    <section id="4">
+        <h2>Creating and Inserting an element</h2>
+        <button id="addNewItem">Add a new item to the shopping list</button>
+        <ul id="shoppinglist">
+            <li>Bread</li>
+            <li>Milk</li>
+        </ul>
+    </section>
+
+    <section id="5">
+        <h2>Removing the DOM element</h2>
+        <ul id ="tasklist">
+            <li>task 1</li>  
+            <li>task 2 </li>
+            <li>task 3</li>
+            <li>task 4</li>
+        </ul>
+        <button id="removeLastTask">Remove the last task</button>
+    </section>
+
+
+    <section id="6">
+        
+        <h2>Event handling in dom </h2>
+        <button id="clickButton">Click button</button>
+    </section>
+
+    <section id="7">
+        <h2>Event Delegation</h2>
+        <ul id="teaList">
+            <li class="teaItem"> Green Tea</li>
+            <li class="teaItem"> Black Tea</li>
+            <li class="teaItem"> Oolang Tea</li>
+        </ul>
+        <p>click on any tea to select it </p>
+    </section>
+
+    <section id="8">
+        <h2>form handling</h2>
+        <form id="feedbackForm">
+            <label for="feedbackInput">Your Feedback</label>
+            <input type="text"  id="feedbackInput" placeholder="Enter feedback">
+            <button type="submit">Submit feedback</button>
+        </form>
+        
+        <p id="feedbackDisplay"></p>
+    </section> 
+    
+
+    <section id="9">
+        <h2>DOM contet loaded</h2>
+        <p id="domStatus">Waiting for DOM to load</p>
+    </section>
+
+    <section id="10">
+        <h2>CSS manipulation</h2>
+        <p id="descriptionText">This text will change</p>
+        <button id="toggleHighLight">Toggle Highlight</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
