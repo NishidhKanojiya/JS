@@ -85,6 +85,10 @@ document.addEventListener('DOMContentLoaded',function(){
 document.getElementById("toggleHighLight")
 .addEventListener('click',function(){
     let text = document.getElementById("descriptionText")
-    
+
 })
+
+
+
+
 
