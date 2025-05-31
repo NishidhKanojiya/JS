@@ -52,3 +52,24 @@ fetchDataWithCallback(function(result){
     console.log(result);
     
 })
+
+
+
+//Prototypal Inheritance in JavaScript
+// Task 1: Create Inheritance Using Prototypes
+
+// Create a constructor Animal with a method makeSound(). 
+// Then create a constructor Dog that inherits from Animal and adds a method bark()
+
+function Animal(){
+    this.makeSound = function(){
+        console.log("Animal makes a sound")
+    }
+}
+function Dog (){
+    Animal.call(this)
+    this.bark = function(){
+        console.log("Dog barks")
+    }
+}
+              
